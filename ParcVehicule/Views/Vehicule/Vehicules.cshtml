@@ -1,5 +1,9 @@
 ﻿@model ParcVehicule.ViewModels.VehiculeVM
 
+@{
+    ViewBag.Title = "Liste Vehicules";
+}
+
 <h2>Tous les véhicules</h2>
 
 <table class="rounded-t-lg m-5 w-5/6 mx-auto bg-gray-800 text-gray-200">
@@ -18,4 +22,4 @@
             <td class="px-4 py-3">@vehicule.type</td>
         </tr>
     }
-    </table>
+</table>
